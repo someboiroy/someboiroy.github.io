@@ -1,0 +1,245 @@
+/* Styles */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('fonts/WorkSans-BoldItalic.woff2') format('woff2'),
+    url('fonts/WorkSans-BoldItalic.woff') format('woff'),
+    url('fonts/WorkSans-BoldItalic.ttf') format('truetype'),
+    url('fonts/WorkSans-BoldItalic.svg#WorkSans-BoldItalic') format('svg');
+}
+
+body {
+  background-color: black;
+  font-family: 'Work Sans', sans-serif;
+  background-image: url(gifs/43.gif);
+  /* background-size: cover; */
+  background-position: center;
+}
+
+.starrybackground {
+  background-image: url(starry.gif);
+}
+
+a {
+  color: white;
+}
+
+/* Navigation Bar */
+#navtext {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#navtext:hover {
+  color: #9d1616;
+}
+
+#bars {
+  font-size: 25px;
+  z-index: 1;
+}
+
+/* Home Page Links */
+#linkcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#linktext {
+  font-size: 30px;
+}
+
+#linktext:hover {
+  color: #9d1616;
+  text-decoration: none;
+}
+
+button {
+  color: white;
+}
+
+/* Creates Horizontal Rule */
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 5px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 2px solid #ffffff;
+}
+
+/* Icons */
+#icons {
+  color: white;
+  font-size: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#icons:hover {
+  color: #9d1616;
+  text-decoration: none;
+}
+
+#download {
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  padding-right: -250px;
+  padding-left: 15px;
+}
+
+#downloadtext {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#download:hover {
+  color: #9d1616;
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* Card Page */
+#cardcontainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  max-height: 50px;
+  margin-top: 100px;
+  opacity: 95%;
+}
+
+/* Roster Page  */
+.roster-section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.roster-name {
+  color: white;
+  margin-left: 20px;
+}
+
+.roster-image {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+#contentlink {
+  display: inline-block;
+  list-style: none;
+  font-size: 35px;
+}
+
+#contentlink:hover {
+  color: #9d1616;
+  text-decoration: none;
+}
+
+/* Gradient Border */
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+
+/*submission boxes */
+#subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  width: 100%
+}
+
+/* pulsating text */
+.opacityPulse-css {
+  animation: opacityPulse 3s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 1;
+  color: #9d1616;
+}
+
+@-webkit-keyframes opacityPulse {
+  0% {
+    opacity: 0.0;
+  }
+
+  50% {
+    opacity: 1.0;
+  }
+
+  100% {
+    opacity: 0.0;
+  }
+}
+
+/* form container */
+#formcontainer {
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col-6 {
+  margin: auto;
+}
+
+/* contact page */
+#contactcontainer {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 65vh;
+  margin-top: -30px;
+}
+
+#about {
+  color: #9d1616;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
